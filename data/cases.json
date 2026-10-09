@@ -1,0 +1,17 @@
+[
+  {"id": "maint-interval", "question": "How often must machines receive preventive maintenance?",
+   "context": "Every machine receives preventive maintenance at least every 90 days.",
+   "reference": "at least every 90 days", "must_include": ["90 days"]},
+  {"id": "high-sev", "question": "Who is paged for a high-severity incident?",
+   "context": "High severity: plant manager and maintenance on-call are paged immediately.",
+   "reference": "the plant manager and maintenance on-call", "must_include": ["plant manager", "on-call"]},
+  {"id": "intrusion", "question": "What happens when a foreign object enters the conveyor belt?",
+   "context": "On an intrusion alert the belt is stopped automatically and the area must be cleared before restart.",
+   "reference": "the belt stops automatically and the area must be cleared before restart", "must_include": ["stop"]},
+  {"id": "lockout", "question": "What is mandatory before maintenance on moving parts?",
+   "context": "Lockout/tagout is mandatory before any maintenance on moving parts.",
+   "reference": "lockout/tagout", "must_include": ["lockout"]},
+  {"id": "unanswerable", "question": "What is the annual maintenance budget?",
+   "context": "Every machine receives preventive maintenance at least every 90 days.",
+   "reference": null, "expect_refusal": true}
+]

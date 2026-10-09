@@ -1,0 +1,3 @@
+pytest>=7.0
+# optional, to evaluate a real model:
+# openai>=1.0
