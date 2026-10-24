@@ -80,4 +80,4 @@ python -m src.harness   # prints the comparison table and writes report.json
 
 ## License
 
-MIT
+Copyright (c) 2026 Rahul Gupta. All rights reserved. Published for viewing and evaluation only; copying or reuse requires written permission. See [LICENSE](LICENSE).
